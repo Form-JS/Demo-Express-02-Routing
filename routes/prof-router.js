@@ -30,6 +30,7 @@ profRouter.get('/prof/file/:filename', (req, res) => {
 
     // __dirname => Localisation actuelle
     console.log(__dirname);
+
     // process.cwd() => Dossier 'principal / root'
     // Dossier dans lequel le fichier "app.js" se trouve
     console.log(process.cwd());
